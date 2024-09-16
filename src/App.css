@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "poppins";
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(./assets/font/Roboto-Regular.ttf);
+}
+body {
+  background-color: #404fed;
+  font-family: "roboto";
+  padding-inline: 50px;
+}
+.navbarApp {
+  display: flex;
+  justify-content: space-between;
+  width: 90dvw;
+  margin-block: 40px;
+}
+.logo,
+.menuIcon {
+  height: 40px;
+}
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 50px;
+  width: 50dvw;
+  color: white;
+}
+.containerMain h1 {
+  font-family: "poppins";
+  font-size: 5rem;
+  line-height: 75px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+.containerMain p {
+  font-family: "roboto";
+  font-size: 1.3rem;
+  line-height: 30px;
+  margin-block: 40px;
+}
+.imgBg {
+  height: 450px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.buttonDownload,
+.buttonOpen {
+  font-size: 1.1rem;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-block: 15px;
+  margin-left: 0;
+}
+.buttonOpen {
+  color: white;
+  background-color: black;
+  font-size: 1.1rem;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-block: 15px;
+}
+.buttonDownload {
+  color: black;
+  background-color: white;
+}
